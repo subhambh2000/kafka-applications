@@ -1,8 +1,0 @@
-simpleSubh\Producers\basic_producer$1.class
-simpleSubh\cmdb_csv_to_json.class
-simpleSubh\monitor_csv_to_json.class
-simpleSubh\Producers\json_file_producer.class
-simpleSubh\consumers\basic_consumer.class
-simpleSubh\Producers\basic_producer.class
-simpleSubh\JsonNodeSerde.class
-simpleSubh\Producers\avro_file_producer.class
