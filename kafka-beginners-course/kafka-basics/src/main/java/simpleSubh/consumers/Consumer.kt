@@ -1,4 +1,7 @@
 package simpleSubh.consumers
+/***
+ * This is a kafka consumer in kotlin
+ */
 
 import org.apache.kafka.clients.consumer.ConsumerConfig
 import org.apache.kafka.clients.consumer.ConsumerRecords
