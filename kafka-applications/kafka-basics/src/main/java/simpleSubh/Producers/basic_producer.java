@@ -23,14 +23,15 @@ public class basic_producer {
     }
     public static void run() throws IOException, InterruptedException {
 
-//        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+        int flag=1;
         KafkaProducer<String, String> producer = createKafkaProducer();
         String topic1 = "test_json";
 
         try {
             int flag;
             do {
-                Scanner sc = new Scanner(System.in);
+                // Scanner sc1 = new Scanner(System.in);
                 String text = sc.nextLine();
                 ProducerRecord<String, String> record = new ProducerRecord<>(topic1, text);
                 // sending data
